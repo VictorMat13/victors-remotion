@@ -10,4 +10,6 @@ import { enableTailwind } from '@remotion/tailwind-v4';
 
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
+// @remotion/effects uses WebGL2 — required for renders that use the effects prop.
+Config.setChromiumOpenGlRenderer("angle");
 Config.overrideWebpackConfig(enableTailwind);

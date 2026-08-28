@@ -1,15 +1,13 @@
-# Remotion video
+# Victors Remotion
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Victor's Remotion workspace for the Liam-style motion graphics system: clean
+dark SaaS/AI aesthetic, glass panels, subtle glows, blue/cyan/purple accents,
+kinetic text, AI workflow diagrams, and continuous-scene camera moves. Built
+per-reel as registered compositions in `src/`.
 
-Welcome to your Remotion project!
+Note: `public/` (brand assets, captures, and source footage) is kept out of
+the repo on purpose, so compositions that reference those assets need the
+local `public/` folder to render.
 
 ## Commands
 
@@ -40,14 +38,6 @@ npx remotion upgrade
 ## Docs
 
 Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
 
 ## License
 

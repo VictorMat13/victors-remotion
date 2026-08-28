@@ -7,10 +7,16 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.482",
+    "@remotion/effects": "4.0.482",
+    "@remotion/google-fonts": "4.0.482",
+    "@remotion/media-utils": "4.0.482",
+    "@remotion/motion-blur": "4.0.482",
+    "@remotion/noise": "4.0.482",
+    "@remotion/paths": "4.0.482",
+    "@remotion/tailwind-v4": "4.0.482",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.482",
-    "@remotion/tailwind-v4": "4.0.482",
     "tailwindcss": "4.0.0"
   },
   "devDependencies": {
@@ -25,7 +31,8 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "check:black": "bash scripts/check-black-frames.sh"
   },
   "sideEffects": [
     "*.css"
